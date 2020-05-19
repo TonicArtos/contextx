@@ -45,7 +45,8 @@ extension BuildContextExtensionsForMaterial on BuildContext {
   MaterialInkController materialInkController() => Material.of(this);
 
   /// See [MaterialLocalizations.of].
-  MaterialLocalizations materialLocalizations() => MaterialLocalizations.of(this);
+  MaterialLocalizations materialLocalizations() =>
+      MaterialLocalizations.of(this);
 
   /// See [NavigationRailTheme.of].
   NavigationRailThemeData navigationRailTheme() => NavigationRailTheme.of(this);
@@ -54,7 +55,8 @@ extension BuildContextExtensionsForMaterial on BuildContext {
   PopupMenuThemeData popupMenuTheme() => PopupMenuTheme.of(this);
 
   /// See [Scaffold.of].
-  ScaffoldState scaffold({bool nullOk = false}) => Scaffold.of(this, nullOk: nullOk);
+  ScaffoldState scaffold({bool nullOk = false}) =>
+      Scaffold.of(this, nullOk: nullOk);
 
   /// See [SliderTheme.of].
   SliderThemeData sliderTheme() => SliderTheme.of(this);

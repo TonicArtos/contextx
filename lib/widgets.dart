@@ -11,10 +11,12 @@ import 'package:flutter/widgets.dart';
 
 extension BuildContextExtensionsForWidgets on BuildContext {
   /// See [Actions.of].
-  ActionDispatcher actions({bool nullOk = false}) => Actions.of(this, nullOk: nullOk);
+  ActionDispatcher actions({bool nullOk = false}) =>
+      Actions.of(this, nullOk: nullOk);
 
   /// See [AnimatedList.of].
-  AnimatedListState animatedList({bool nullOk = false}) => AnimatedList.of(this, nullOk: nullOk);
+  AnimatedListState animatedList({bool nullOk = false}) =>
+      AnimatedList.of(this, nullOk: nullOk);
 
   /// See [DefaultAssetBundle.of].
   AssetBundle defaultAssetBundle() => DefaultAssetBundle.of(this);
@@ -44,7 +46,8 @@ extension BuildContextExtensionsForWidgets on BuildContext {
   IconThemeData iconTheme() => IconTheme.of(this);
 
   /// See [MediaQuery.of].
-  MediaQueryData mediaQuery({bool nullOk = false}) => MediaQuery.of(this, nullOk: nullOk);
+  MediaQueryData mediaQuery({bool nullOk = false}) =>
+      MediaQuery.of(this, nullOk: nullOk);
 
   /// See [Navigator.of].
   NavigatorState navigator() => Navigator.of(this);
@@ -56,13 +59,15 @@ extension BuildContextExtensionsForWidgets on BuildContext {
   ScrollBehavior scrollBehavior() => ScrollConfiguration.of(this);
 
   /// See [PrimaryScrollController.of].
-  ScrollController primaryScrollController() => PrimaryScrollController.of(this);
+  ScrollController primaryScrollController() =>
+      PrimaryScrollController.of(this);
 
   /// See [Scrollable.of].
   ScrollableState scrollable() => Scrollable.of(this);
 
   /// See [Shortcuts.of].
-  ShortcutManager shortcuts({bool nullOk = false}) => Shortcuts.of(this, nullOk: nullOk);
+  ShortcutManager shortcuts({bool nullOk = false}) =>
+      Shortcuts.of(this, nullOk: nullOk);
 
   /// See [SliverAnimatedList.of].
   SliverAnimatedListState sliverAnimatedList({bool nullOk = false}) =>
